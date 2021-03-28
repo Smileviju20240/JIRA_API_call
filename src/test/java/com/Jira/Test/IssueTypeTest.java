@@ -47,9 +47,9 @@ public class IssueTypeTest extends CreateSessionIDTest{
 	
 	given().log().all()
 	       .contentType(ContentType.JSON)
-	       //.pathParam("key", creatingIssueTypes(key))
+	       .pathParam("key", creatingIssueTypes(key))
 	       .filter(sessionfilter)
-	       .when().get("http://localhost:8080/rest/agile/1.0/issue/"+creatingIssueTypes(key))
+	       .when().get("http://localhost:8080/rest/agile/1.0/issue/{key}")
 	       .then().statusCode(200).log().all();
 	}
   

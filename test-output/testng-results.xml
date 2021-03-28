@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92219" started-at="2021-03-20T19:34:43 IST" finished-at="2021-03-20T19:36:15 IST">
+  <suite name="Default suite" duration-ms="30580" started-at="2021-03-28T09:52:29 IST" finished-at="2021-03-28T09:53:00 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92219" started-at="2021-03-20T19:34:43 IST" finished-at="2021-03-20T19:36:15 IST">
-      <class name="com.Jira.Test.FileUpload">
-        <test-method status="PASS" signature="creatingSessionID()[pri:0, instance:com.Jira.Test.FileUpload@480bdb19]" name="creatingSessionID" duration-ms="18207" started-at="2021-03-20T19:34:43 IST" finished-at="2021-03-20T19:35:01 IST">
+    <test name="Default test" duration-ms="30580" started-at="2021-03-28T09:52:29 IST" finished-at="2021-03-28T09:53:00 IST">
+      <class name="com.Jira.Test.CreatingSprint">
+        <test-method status="PASS" signature="creatingSessionID()[pri:0, instance:com.Jira.Test.CreatingSprint@2a556333]" name="creatingSessionID" duration-ms="16041" started-at="2021-03-28T09:52:29 IST" finished-at="2021-03-28T09:52:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatingSessionID -->
-        <test-method status="PASS" signature="loadingaFile()[pri:0, instance:com.Jira.Test.FileUpload@480bdb19]" name="loadingaFile" duration-ms="73978" started-at="2021-03-20T19:35:01 IST" finished-at="2021-03-20T19:36:15 IST">
+        <test-method status="PASS" signature="fetchingSprintInfo()[pri:0, instance:com.Jira.Test.CreatingSprint@2a556333]" name="fetchingSprintInfo" duration-ms="14461" started-at="2021-03-28T09:52:45 IST" finished-at="2021-03-28T09:53:00 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loadingaFile -->
-      </class> <!-- com.Jira.Test.FileUpload -->
+        </test-method> <!-- fetchingSprintInfo -->
+      </class> <!-- com.Jira.Test.CreatingSprint -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

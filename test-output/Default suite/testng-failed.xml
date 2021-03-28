@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Jira.Test.FileUpload">
+      <class name="com.Jira.Test.IssueTypeTest">
         <methods>
-          <include name="loadingaFile"/>
-          <include name="creatingSessionID"/>
+          <include name="getIssueDetails"/>
         </methods>
-      </class> <!-- com.Jira.Test.FileUpload -->
+      </class> <!-- com.Jira.Test.IssueTypeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
